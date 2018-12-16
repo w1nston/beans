@@ -1,4 +1,8 @@
 'use strict';
-const server = require('./details/server');
+// const apiServer = require('./details/api-server');
+const graphqlServer = require('./details/graphql-server');
 
-server.start();
+// apiServer.start();
+(async function start() {
+  await graphqlServer.start();
+})();

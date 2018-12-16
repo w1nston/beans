@@ -2,7 +2,7 @@
 
 const get = (request, response) => {
   // use case here
-  response.send('Home');
+  response.send(['Bruna bönor', 'Yin och Yang', 'Berlotti']);
 };
 
 module.exports = {

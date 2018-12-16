@@ -1,11 +1,11 @@
 'use strict';
 const express = require('express');
-const homeController = require('./controllers/home');
+const beansController = require('./controllers/beans');
 
 const defineRoutes = () => {
   const app = express();
 
-  app.get('/', homeController.get);
+  app.get('/beans', beansController.get);
 
   return app;
 };

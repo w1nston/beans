@@ -1,5 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+'use strict';
+const server = require('./details/server');
 
-ReactDOM.render(<App />, document.getElementById('root'));
+server.start();

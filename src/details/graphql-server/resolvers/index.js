@@ -1,5 +1,5 @@
 'use strict';
-const { beans } = require('./beans');
+const { beans } = require('./beansResolver');
 
 const resolvers = {
   Query: {

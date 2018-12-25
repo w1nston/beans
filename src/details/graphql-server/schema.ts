@@ -1,7 +1,7 @@
 'use strict';
-const { gql } = require('apollo-server');
+import { gql } from 'apollo-server';
 
-const schema = gql`
+export const schema = gql`
   type Bean {
     name: String!
   }
@@ -10,5 +10,3 @@ const schema = gql`
     beans: [Bean]
   }
 `; 
-
-module.exports = { schema };
